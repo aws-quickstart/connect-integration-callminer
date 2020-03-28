@@ -1,0 +1,20 @@
+project:
+  name: connect-integration-callminer
+  owner: quickstart-eng@amazon.com
+  package_lambda: false
+  regions:
+  - ap-southeast-2
+  - eu-central-1
+  - us-east-1
+  - us-west-2
+  s3_bucket: ''
+tests:
+  defaults:
+    parameters: {}
+    regions:
+    - ap-southeast-2
+    - eu-central-1
+    - us-east-1
+    - us-west-2
+    s3_bucket: ''
+    template: templates/callminer.json
